@@ -1,5 +1,3 @@
-# Apex_Project_Student_Segmentation Project Summary
-
 # Student Engagement Segmentation for Early Academic Intervention
 
 An unsupervised machine learning project using K-Means and Hierarchical Clustering on LMS interaction data (`xAPI-Edu-Data`, $N=478$) to segment learners for proactive academic advising without using grade or attendance labels during training.
@@ -14,4 +12,4 @@ An unsupervised machine learning project using K-Means and Hierarchical Clusteri
 * **Key Failure-Mode Finding:** 100% (3/3) of failing students inside the engaged clusters had `Above-7` absence days, showing that combining LMS clustering with attendance flags catches missed risk cases.
 
 ## Files
-* `student_segmentation.ipynb` — Complete end-to-end data cleaning, EDA, feature engineering, clustering experiments, and unseen holdout evaluation.
+* `Apex_Project_Student_Segmentation.ipynb` — Complete end-to-end data cleaning, EDA, feature engineering, clustering experiments, and unseen holdout evaluation.
